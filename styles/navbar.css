@@ -1,10 +1,17 @@
 nav{
     height: 70px;
-    /* background-color: red; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #282828;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0  2rem;
+    z-index: 10;
+    opacity: 0.8;
+    
 }
 
 nav .brand{
