@@ -45,6 +45,7 @@
     transition: 0.5s ease-in-out;
 }
 
+
 .contact-main-text a:hover::before{
     transform: scaleX(1);
 }
@@ -102,4 +103,5 @@
 .contact-form form button:hover{
     background-color: orangered;
 }
+
 
