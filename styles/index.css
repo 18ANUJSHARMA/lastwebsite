@@ -66,11 +66,13 @@
     }
 }
 
+
 .about{
     padding: 1rem;
     text-align: center;
 
 }
+
 .about h1{
     font-size: 3rem;
     margin: 1rem 0;
@@ -210,4 +212,39 @@
 
 .subscribe-box button:hover{
     background-color: orangered;
+}
+
+.register{
+    box-sizing: border-box;
+    margin: 0 25px;
+    padding: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: orangered;
+    color: black;
+    font-weight: 500;
+    box-shadow: 0.1rem -0.1rem 0.1rem -0.1rem #e8e9d2,
+    -0.1rem 0.1rem -0.1rem 0.1rem #ffffff;
+    border-radius: 7px;
+
+}
+
+.register:hover{
+    background-color: gold;
+    cursor: pointer;
+}
+.register a{
+    text-decoration: none;
+    color: black;
+}
+html{ 
+    scroll-behavior : smooth ;
+} 
+.totop { 
+    position : fixed ; 
+    bottom : 10px ; 
+    right : 10px ; 
+    background-color : #FFBF00 ; 
+    padding : 20px ; 
+    border-radius : 20px ;
 }

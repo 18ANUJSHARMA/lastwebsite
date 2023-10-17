@@ -40,7 +40,7 @@ section > h1{
 
 .pricing-card{
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 40px;
     text-align: center;
     margin: 1rem;
     width: 275px;
@@ -104,4 +104,16 @@ section > h1{
 
 .going:hover{
     color: orangered;
+}
+
+html{ 
+    scroll-behavior : smooth ;
+} 
+.totop { 
+    position : fixed ; 
+    bottom : 10px ; 
+    right : 10px ; 
+    background-color : #FFBF00 ; 
+    padding : 20px ; 
+    border-radius : 20px ;
 }
